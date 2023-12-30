@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.imageGrid {
+/* .imageGrid {
     display: flex;
     gap: 10px;
     width: 90%;
@@ -51,4 +51,31 @@
 
 .column div {
     border: 1px solid black;
+} */
+
+.imageGrid {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    gap: 10px;
+
 }
+
+.imageGrid img {
+    width: 100%;
+    height: auto;
+}
+.normal {
+    grid-column: span 3;
+}
+
+.tall {
+    grid-column: span 2;
+}
+
+.large {
+    grid-column: span 4;
+}
+
+.imageViwer {}
