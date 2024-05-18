@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emil Liljemark</title>
+</head>
+<body>
+    <div class="navBar">
+        <div><a>Home</a></div>
+        <div><a href="nature.html">Nature</a></div>
+        <div><a>City</a></div>
+        <div><a>Contact</a></div>
+    </div>
+    <div class="heading">Sommar 2023</div>
+    <div class="imageGrid">
+        <button class="normal" onclick="showImage('images/hamnvy.jpg')"><img src="images/hamnvy.jpg"></button>
+        <button class="normal" onclick="showImage('images/stadsvy.jpg')"><img src="images/stadsvy.jpg"></button>
+        <button class="tall" onclick="showImage('images/rodahus.jpg')"><img src="images/rodahus.jpg"></button>
+        <button class="tall" onclick="showImage('images/hamn.jpg')"><img src="images/hamn.jpg"></button>
+        <button class="tall" onclick="showImage('images/smastad.jpg')"><img src="images/smastad.JPG"></button>
+        <button class="normal" onclick="showImage('images/polacks.jpg')"><img src="images/polacks.jpg"></button>
+        <button clasS="normal" onclick="showImage('images/grand.jpg')"><img src="images/grand.jpg"></button>
+    </div>
+    <div id="imageViewer">
+        <button class="exit" onclick="closeImage()">X</button>
+        <img id="varImg" src="images/vinterdag.jpg">
+    </div>
+    <div id="dimmer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

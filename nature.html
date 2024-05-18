@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emil Liljemark</title>
+</head>
+<body>
+    <div class="navBar">
+        <div><a>Home</a></div>
+        <div><a>Nature</a></div>
+        <div><a href="city.html">City</a></div>
+        <div><a>Contact</a></div>
+    </div>
+    <div class="heading">Sommar 2023</div>
+    <div class="imageGrid">
+        <button class="normal" onclick="showImage('images/vinterdag.jpg')"><img src="images/vinterdag.jpg"></button>
+        <button class="normal" onclick="showImage('images/vinterdag.jpg')"><img src="images/vinterdag.jpg"></button>
+        <button class="tall" onclick="showImage('images/sommarbris.jpg')"><img src="images/sommarbris.jpg"></button>
+        <button class="tall" onclick="showImage('images/skogsglanta.jpg')"><img src="images/skogsglanta.jpg"></button>
+        <button class="tall" onclick="showImage('images/vintertrad.jpg')"><img src="images/vintertrad.JPG"></button>
+        <button class="normal" onclick="showImage('images/svenskstuga.jpg')"><img src="images/svenskstuga.jpg"></button>
+        <button clasS="normal" onclick="showImage('images/hostbank.jpg')"><img src="images/hostbank.jpg"></button>
+        <button class="tall" onclick="showImage('images/vintersjo.jpg')"><img src="images/vintersjo.JPG"></button>
+    </div>
+    <div id="imageViewer">
+        <button class="exit" onclick="closeImage()">X</button>
+        <img id="varImg" src="images/vinterdag.jpg">
+    </div>
+    <div id="dimmer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
