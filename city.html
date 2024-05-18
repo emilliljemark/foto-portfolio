@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Emil Liljemark</title>
+     <!-- Länk till dropdown ikon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="navBar">
-        <div><a>Home</a></div>
+        <div>Emils fotografier</div>
         <div><a href="nature.html">Nature</a></div>
-        <div><a>City</a></div>
+        <div class="current"><a>City</a></div>
         <div><a>Contact</a></div>
+    </div>
+    <!-- Navigation för mobil -->
+    <div class="mobileNav">
+        <div class="logo">Emils fotografier</div>
+        <a href="javascript:void(0)" class="icon" onclick="drop()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div id="links">
+        <a href="nature.html">Nature</a>
+        <a href="city.html">City</a>
+        <a>Contact</a>
     </div>
     <div class="heading">Sommar 2023</div>
     <div class="imageGrid">
